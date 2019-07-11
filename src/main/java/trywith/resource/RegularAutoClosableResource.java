@@ -1,6 +1,9 @@
-package trywith;
+package trywith.resource;
 
-public class RegularAutoClosableResource extends Resource  {
+import trywith.CloseEventListener;
+import trywith.Resource;
+
+public class RegularAutoClosableResource extends Resource {
 
 
     private CloseEventListener closeEventListener;

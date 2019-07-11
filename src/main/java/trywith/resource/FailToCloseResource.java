@@ -1,4 +1,4 @@
-package trywith;
+package trywith.resource;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import trywith.CloseEventListener;

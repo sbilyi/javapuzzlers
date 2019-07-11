@@ -5,6 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import trywith.*;
+import trywith.resource.FailToCloseResource;
+import trywith.resource.FailToOpenResource;
+import trywith.resource.RegularAutoClosableResource;
+
 
 import static org.junit.Assert.*;
 

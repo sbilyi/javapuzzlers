@@ -1,6 +1,8 @@
-package trywith;
+package trywith.resource;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+import trywith.CloseEventListener;
+import trywith.Resource;
 
 public class FailToOpenResource extends Resource {
 
