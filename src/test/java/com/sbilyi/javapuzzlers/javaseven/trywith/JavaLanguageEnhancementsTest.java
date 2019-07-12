@@ -2,9 +2,6 @@ package com.sbilyi.javapuzzlers.javaseven.trywith;
 
 import org.junit.Test;
 
-import java.io.IOException;
-import java.sql.SQLException;
-
 import static junit.framework.TestCase.fail;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -21,7 +18,7 @@ public class JavaLanguageEnhancementsTest {
         byte three = 0b0011;
         short eight = 0b1000;
         int twenty = 0b10100;
-        assertEquals(10l, ten);
+        assertEquals(10L, ten);
         assertEquals(3, three);
         assertEquals(8, eight);
         assertEquals(20, twenty);
